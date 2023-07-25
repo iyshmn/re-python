@@ -3,11 +3,16 @@ myFruitList=[
     "apple",
     "banana",
     "cherry",
-    1
+    1,
+    2.4
 ]
-print(str(myFruitList)+" " +str(type(myFruitList)))
+# for items in myFruitList:
+#     print(items)
+# for items in range(len(myFruitList)):
+#     print(myFruitList[items])
+#print(str(myFruitList)+" " +str(type(myFruitList)))
 myFruitList[2]="strawberry " #mutable
-print(myFruitList)
+# print(myFruitList)
 #tuple
 myTuple = (
     "apple",
@@ -15,12 +20,16 @@ myTuple = (
     "pineapple ",
     99
     )
-print(str(myTuple)+" "+str(type(myTuple)))
+# print(str(myTuple)+" "+str(type(myTuple)))
+# for items in range(len(myTuple)):
+#     print(myTuple[items])
 #dictionary 
 myFavoriteFruitDictionary = {
   "Akua" : "apple",
   "Saanvi" : "banana",
   "Paulo" : "pineapple"
 }
+for item in myFavoriteFruitDictionary:
+    print(item)
 print(str(myFavoriteFruitDictionary)+str(type(myFavoriteFruitDictionary)))
 print(myFavoriteFruitDictionary["Paulo"])
